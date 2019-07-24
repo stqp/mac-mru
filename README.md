@@ -1,17 +1,13 @@
 # mac-mru
-A Easy Fast Forensic Tool for MRU Files.  
-This is a simplyfied tool by modifying these tools,
-- [macMRU-Parser](https://github.com/mac4n6/macMRU-Parser)
-- [mac_alias](https://github.com/al45tair/mac_alias)
-- [ccl-bplist](https://github.com/cclgroupltd/ccl-bplist)
-
-
+A Easy and Fast Forensic Tool for MRU Files.  
 
 # Prerequisite
 - Python 3
 
 # How to use
-You must specify root directory to search files by `-r` option, and output directory by `-o` option.
+You must specify options.  
+- `-r` : root directory to search target files.  
+- `-o` : output directory to write the result.
 ```
 $ python app.py -r / -o ./out
 $ cat ./out/mru_parsed.txt
@@ -88,3 +84,10 @@ file_path : Applications/Microsoft PowerPoint.app
 creator : None
 creator_UID : None
 ```
+</details>
+
+# Reference
+This tool using these tools internally.
+- [macMRU-Parser](https://github.com/mac4n6/macMRU-Parser)
+- [mac_alias](https://github.com/al45tair/mac_alias)
+- [ccl-bplist](https://github.com/cclgroupltd/ccl-bplist)
