@@ -9,7 +9,7 @@ You must specify options.
 - `-r` : root directory to search target files.  
 - `-o` : output directory to write the result.
 ```
-$ python app.py -r / -o ./out
+$ python mac_mru.py -r / -o ./out
 $ cat ./out/mru_parsed.txt
 ```
 
